@@ -220,13 +220,18 @@ a {
 .hero__bg {
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.88)),
-    url("assets/img/hero-solda.jpg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.88)
+    ),
+    url("../assets/img/hero-solda.jpg");
   background-size: cover;
   background-position: center;
   filter: saturate(1.05) contrast(1.05);
   transform: scale(1.03);
 }
+
 
 .hero__inner {
   position: relative;
